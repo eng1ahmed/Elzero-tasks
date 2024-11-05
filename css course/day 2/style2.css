@@ -1,0 +1,184 @@
+.container{
+    background-color: rgb(236, 236, 236);
+    width: 800px;
+    height: fit-content;
+    padding: 10px;
+    overflow: hidden;
+}
+.fu{
+    float: inline-start;
+    width: calc(100% - 50px);
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+    padding: inherit;
+    margin: 15px;
+}
+.tr{
+    float: inline-start;
+    width:calc((100% - 150px) / 3) ;
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+    padding: inherit;
+    margin: 15px;
+}
+.ha{
+    float: inline-start;
+    width:calc((100% - 100px) / 2) ;
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+    padding: inherit;
+    margin: 15px;
+}
+.qu{
+    float: inline-start;
+    width:calc((100% - 200px) / 4) ;
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+    padding: inherit;
+    margin: 15px;
+}
+div div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color:rgb(170, 169, 169) ; /* Get The Background From Image */
+    color: black;
+  }
+  .two{
+    opacity: 0.1;
+  }
+  .one{
+    background-color: rgba(170, 169, 169, 0.1);
+  }
+  .green{
+    background-color: green;
+    z-index: 3;
+    margin: 40px;
+  }
+  .red{
+    background-color: red;
+    z-index: 4;
+    margin: 60px;
+  }
+  .blue{
+    background-color: blue;
+    margin: 20px;
+    z-index: 1;
+    
+  }
+  .black{
+    background-color: black;
+    z-index: 0;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .green, .black , .red , .blue {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+  }
+  .spani{
+  /*  position: absolute;*/
+  margin-top: 200px;
+    width: 400px;
+    height: 200px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2{
+    margin-top: 1100px;
+  }
+  h2{
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(175, 175, 175);
+  }
+  .top-left,.top-right,.bottom-left,.bottom-right{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-left { top: -18px; left: -18px; border-left: 1px solid red ;}
+  .bottom-left { bottom: -18px; left: -18px; }
+  .top-right { top: -18px; right: -18px; }
+  .bottom-right { bottom: -18px; right: -18px; }
+  .box {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: 4px solid red;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  ul{
+    background-color: #e0e0e0;
+  }
+ol li, ul li li{
+    margin: 20px;
+    width: 400px;
+    background-color: azure;
+    padding: 5px;
+  }
+ul span{
+    list-style-position: outside;
+}
+.clean{
+    clear: both;
+}
+.ol2{
+    list-style-type:upper-roman;
+}
+.ul1 li{
+    list-style-position: inside;
+    padding: 5px;
+}
+a{
+    border-radius: 3px;
+    text-decoration: none;
+    margin:3px;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+}
+.view{
+    background-color: #007bff;
+    margin-left: 5px;
+}
+table{
+    width: 700px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    color: white;
+    background-color: rgb(54, 54, 54);
+    padding: 15px;
+}
+td{
+    border-spacing: 3px;
+    background-color:#e0e0e0 ;
+    padding: 20px;
+}
+tr{
+    align-items: center;
+}
+.delete{
+    background-color:rgb(252, 30, 30) ;
+    margin-left: 5px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
